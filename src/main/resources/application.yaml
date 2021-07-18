@@ -2,7 +2,7 @@ logging:
   level:
     root: ERROR
     org.springframework: ERROR
-    com.sypark.problem: DEBUG
+    com.sypark.problem: ERROR
 
 server:
   compression:
