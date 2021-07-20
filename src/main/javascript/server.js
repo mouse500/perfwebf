@@ -9,6 +9,12 @@ server.get('/workloadwexcall', async (req,res) => {
     rv = await workloadWithExtCall(rv);
     rv = await workloadWithExtCall(rv);
     rv = await workloadWithExtCall(rv);
+    rv = await workloadWithExtCall(rv);
+    rv = await workloadWithExtCall(rv);
+    rv = await workloadWithExtCall(rv);
+    rv = await workloadWithExtCall(rv);
+    rv = await workloadWithExtCall(rv);
+    rv = await workloadWithExtCall(rv);
     res.send(rv);
 });
 
